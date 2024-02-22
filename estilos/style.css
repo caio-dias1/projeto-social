@@ -1,0 +1,30 @@
+@charset "UTF-8";
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    background-image: url('../imagens/fundo-madeira.jpg');
+    background-size: auto;
+}
+
+nav {
+    text-align: right;
+}
+
+nav > img {
+    height: 5vh;
+    padding: 10px;
+    
+    
+}
+.container {
+    display: flex;
+    justify-content: center;
+    height: 50vh;
+}
+#cel {
+    transform: translate(0%, -40%);
+}
